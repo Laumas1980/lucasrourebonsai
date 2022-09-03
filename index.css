@@ -1,0 +1,65 @@
+@font-face {
+    font-family: Lau;
+    src: url(./fuentes/CrimsonText-SemiBoldItalic.ttf);
+   
+    }
+    @font-face {
+        font-family: Lau2;
+        src: url(./fuentes/CrimsonText-SemiBold.ttf);
+    }
+
+    body{
+       margin: 0;
+       padding: 0%;
+        background-color:dda15e;
+        
+    }
+.contenedor{
+
+    display:flex;
+    justify-content: space-around;
+   align-items: center;
+width: 100vw;
+height: 50vh;
+
+    
+}
+.menu {
+ 
+    color:rgb(34, 21, 4);
+    font-family: Lau2;
+    font-weight: 800;
+    font-style: oblique;
+
+   
+
+}
+p{
+    font-family: Lau;
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: blue;
+    border: 10px;
+    justify-content: center;
+   
+}
+h4{
+    font-family: Lau;
+    font-size: 20px;
+    
+}
+h3{
+    font-family: Lau;
+     
+}
+body{
+    background-color: rgb(211, 136, 136);
+}
+img{
+    border-radius: 100px;
+}
+div{
+    padding-left: 30px;
+    padding-right: 30px;
+
+} 
